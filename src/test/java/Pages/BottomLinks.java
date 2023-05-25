@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import BestbuyBaseClass.BaseClass;
 
 public class BottomLinks extends BaseClass{
+
+	
 	
 	@FindBy(xpath="//a[contains(text(),'Accessibility')]")
 	WebElement access;
