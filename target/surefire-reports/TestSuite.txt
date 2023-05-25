@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 952.821 sec <<< FAILURE! - in TestSuite
+addCart(TestCases.AddCartTestcases)  Time elapsed: 153.966 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='number']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VISHAL', ip: '172.20.10.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:28407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c1ed36f694022ba79ddbbe49d0ee918
+*** Element info: {Using=xpath, value=//input[@id='number']}
+	at TestCases.AddCartTestcases.addCart(AddCartTestcases.java:20)
+
+tc02createAccount(TestCases.CreateAccountTestcase)  Time elapsed: 34.632 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='firstName']"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VISHAL', ip: '172.20.10.13', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:29618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6daec70c2546f7964506c3fb5f157436
+*** Element info: {Using=xpath, value=//input[@name='firstName']}
+	at TestCases.CreateAccountTestcase.tc02createAccount(CreateAccountTestcase.java:20)
+
+validateBestBusinessTitle(TestCases.MenuTestcases)  Time elapsed: 37.598 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Best Buy | Official Online Store | Shop Now & Save] but found [Best Buy for Business - Best Buy]
+	at TestCases.MenuTestcases.validateBestBusinessTitle(MenuTestcases.java:111)
+

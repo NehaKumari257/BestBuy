@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.CreateAccountTestcase">
+        <methods>
+          <include name="tc02createAccount"/>
+          <include name="closeUp"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- TestCases.CreateAccountTestcase -->
+      <class name="TestCases.AddCartTestcases">
+        <methods>
+          <include name="closeUp"/>
+          <include name="addCart"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- TestCases.AddCartTestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">290,829</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite (0)</th></tr>
+<tr class="stripe"><td><a href="#t1">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">660,619</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">951,448</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.AddCartTestcases</td><td><a href="#m0">addCart</a></td><td rowspan="1">1685006412350</td><td rowspan="1">153895</td></tr><tr class="failedodd"><td rowspan="1">TestCases.CreateAccountTestcase</td><td><a href="#m1">tc02createAccount</a></td><td rowspan="1">1685006619997</td><td rowspan="1">34631</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.BottomLinksTestCase</td><td><a href="#m2">scroll</a></td><td rowspan="1">1685006580170</td><td rowspan="1">26519</td></tr><tr class="passedodd"><td rowspan="1">TestCases.CreateAccountTestcase</td><td><a href="#m3">validateCreateAccount</a></td><td rowspan="1">1685006667203</td><td rowspan="1">21126</td></tr></tbody>
+<tbody><tr><th colspan="4">Suite (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.MenuTestcases</td><td><a href="#m4">validateBestBusinessTitle</a></td><td rowspan="1">1685006769927</td><td rowspan="1">37597</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.HomeTestcase</td><td><a href="#m5">tcHome01</a></td><td rowspan="1">1685007326680</td><td rowspan="1">22387</td></tr><tr class="passedodd"><td rowspan="2">TestCases.LoginTestcase</td><td><a href="#m6">tc004signinWithNum</a></td><td rowspan="1">1685007209025</td><td rowspan="1">49364</td></tr><tr class="passedodd"><td><a href="#m7">tc03Signin</a></td><td rowspan="1">1685007270493</td><td rowspan="1">43808</td></tr><tr class="passedeven"><td rowspan="9">TestCases.MenuTestcases</td><td><a href="#m8">Close</a></td><td rowspan="1">1685006701882</td><td rowspan="1">55745</td></tr><tr class="passedeven"><td><a href="#m9">validateBestBuyTitle</a></td><td rowspan="1">1685006821484</td><td rowspan="1">56551</td></tr><tr class="passedeven"><td><a href="#m10">validateDealofDayTitle</a></td><td rowspan="1">1685006892577</td><td rowspan="1">28412</td></tr><tr class="passedeven"><td><a href="#m11">validateGiftCardTitle</a></td><td rowspan="1">1685006936562</td><td rowspan="1">29966</td></tr><tr class="passedeven"><td><a href="#m12">validateGiftIdeasTitle</a></td><td rowspan="1">1685006979588</td><td rowspan="1">32464</td></tr><tr class="passedeven"><td><a href="#m13">validateGiftTitle</a></td><td rowspan="1">1685007024784</td><td rowspan="1">37687</td></tr><tr class="passedeven"><td><a href="#m14">validateHealthTitle</a></td><td rowspan="1">1685007075041</td><td rowspan="1">33086</td></tr><tr class="passedeven"><td><a href="#m15">validateMemberOfferTitle</a></td><td rowspan="1">1685007120294</td><td rowspan="1">30908</td></tr><tr class="passedeven"><td><a href="#m16">validateTopDealsTitle</a></td><td rowspan="1">1685007165465</td><td rowspan="1">30819</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TestCases.AddCartTestcases#addCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;number&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;VISHAL&apos;, ip: &apos;172.20.10.13&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:28407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c1ed36f694022ba79ddbbe49d0ee918
+*** Element info: {Using=xpath, value=//input[@id=&apos;number&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.sendKeys(Unknown Source)
+	at Pages.AddCartPage.paymentDetails(AddCartPage.java:170)
+	at TestCases.AddCartTestcases.addCart(AddCartTestcases.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.CreateAccountTestcase#tc02createAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;firstName&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;VISHAL&apos;, ip: &apos;172.20.10.13&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:29618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6daec70c2546f7964506c3fb5f157436
+*** Element info: {Using=xpath, value=//input[@name=&apos;firstName&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.sendKeys(Unknown Source)
+	at Pages.CreateAccountPage.signup(CreateAccountPage.java:58)
+	at TestCases.CreateAccountTestcase.tc02createAccount(CreateAccountTestcase.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.BottomLinksTestCase#scroll</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.CreateAccountTestcase#validateCreateAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m4">TestCases.MenuTestcases#validateBestBusinessTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Best Buy | Official Online Store | Shop Now &amp; Save] but found [Best Buy for Business - Best Buy]
+	at TestCases.MenuTestcases.validateBestBusinessTitle(MenuTestcases.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.HomeTestcase#tcHome01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.LoginTestcase#tc004signinWithNum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.LoginTestcase#tc03Signin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.MenuTestcases#Close</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.MenuTestcases#validateBestBuyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCases.MenuTestcases#validateDealofDayTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestCases.MenuTestcases#validateGiftCardTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestCases.MenuTestcases#validateGiftIdeasTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestCases.MenuTestcases#validateGiftTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestCases.MenuTestcases#validateHealthTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestCases.MenuTestcases#validateMemberOfferTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestCases.MenuTestcases#validateTopDealsTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

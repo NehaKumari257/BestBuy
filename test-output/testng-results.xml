@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T15:14:36 IST" name="Default suite" finished-at="2023-05-25T15:15:23 IST" duration-ms="46502">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T15:14:36 IST" name="Default test" finished-at="2023-05-25T15:15:23 IST" duration-ms="46502">
+      <class name="TestCases.MenuTestcases">
+        <test-method is-config="true" signature="start()[pri:0, instance:TestCases.MenuTestcases@3059cbc]" started-at="2023-05-25T15:14:36 IST" name="start" finished-at="2023-05-25T15:14:49 IST" duration-ms="13099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="validateDealofDayTitle()[pri:0, instance:TestCases.MenuTestcases@3059cbc]" started-at="2023-05-25T15:14:49 IST" name="validateDealofDayTitle" finished-at="2023-05-25T15:15:22 IST" duration-ms="32842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealofDayTitle -->
+        <test-method is-config="true" signature="closeUp()[pri:0, instance:TestCases.MenuTestcases@3059cbc]" started-at="2023-05-25T15:15:22 IST" name="closeUp" finished-at="2023-05-25T15:15:23 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+      </class> <!-- TestCases.MenuTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
